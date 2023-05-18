@@ -1,25 +1,24 @@
 {
   "files": {
     "main.css": "/sayid/static/css/main.64b27c22.css",
-    "main.js": "/sayid/static/js/main.143ea256.js",
-    "static/media/about2.jpg": "/sayid/static/media/about2.ed8016c7a80558f05252.jpg",
-    "static/media/commercial2.png": "/sayid/static/media/commercial2.129b7f3a966386f248da.png",
-    "static/media/commercial1.png": "/sayid/static/media/commercial1.d7c7bea7bf46734a96cd.png",
-    "static/media/pet1.png": "/sayid/static/media/pet1.b3e5c7b91cbe0987861f.png",
-    "static/media/about3.jpg": "/sayid/static/media/about3.afdefb572306cb909c92.jpg",
-    "static/media/pet2.png": "/sayid/static/media/pet2.87825eacdd776bab3265.png",
-    "static/media/about1.jpg": "/sayid/static/media/about1.20ca5ef2b8399bf4aa4f.jpg",
-    "static/media/about4.jpg": "/sayid/static/media/about4.2168ffb3a52fd2fa8618.jpg",
-    "static/media/about5.webp": "/sayid/static/media/about5.d0cf8c0c4bd89ee46719.webp",
-    "static/media/face.png": "/sayid/static/media/face.e93b30fe5759ec6375fd.png",
-    "static/media/github.png": "/sayid/static/media/github.f3d873d71aa989badfd2.png",
+    "main.js": "/sayid/static/js/main.257fa199.js",
+    "static/media/about2.jpg": "/sayid/static/media/about2.c0ad8d431f47885f46c0.jpg",
+    "static/media/commercial2.png": "/sayid/static/media/commercial2.a12d1f9c7f74125fbd2d.png",
+    "static/media/about3.jpg": "/sayid/static/media/about3.d0a61f08c6dd900e9ef1.jpg",
+    "static/media/commercial1.png": "/sayid/static/media/commercial1.c3c353a593b6ae473be3.png",
+    "static/media/pet2.png": "/sayid/static/media/pet2.6b7160fd6c4b15a908d4.png",
+    "static/media/about1.jpg": "/sayid/static/media/about1.0d32d8d6e8242b30789c.jpg",
+    "static/media/pet1.png": "/sayid/static/media/pet1.190c2505661a72dc31de.png",
+    "static/media/about4.jpg": "/sayid/static/media/about4.5d0a519e201d9804681a.jpg",
+    "static/media/about5.webp": "/sayid/static/media/about5.86400751491271a342f3.webp",
+    "static/media/face.png": "/sayid/static/media/face.7ef352c357465a2868d3.png",
     "index.html": "/sayid/index.html",
     "static/media/getFetch.cjs": "/sayid/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.64b27c22.css.map": "/sayid/static/css/main.64b27c22.css.map",
-    "main.143ea256.js.map": "/sayid/static/js/main.143ea256.js.map"
+    "main.257fa199.js.map": "/sayid/static/js/main.257fa199.js.map"
   },
   "entrypoints": [
     "static/css/main.64b27c22.css",
-    "static/js/main.143ea256.js"
+    "static/js/main.257fa199.js"
   ]
 }
