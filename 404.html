@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Page Not Found</title>
+      <script type="text/javascript">
+      // Redirect all 404 routes to the index.html
+      const path = window.location.pathname;
+      const url = window.location.href.replace(path, '/');
+      window.location.replace(url);
+      </script>
+   </head>
+   <body>
+      <p>Page Not Found</p>
+   </body>
+</html>
+Commit this file to your repository, and it should ensure that all requests to non-existent routes are redirected to your index.html, where your React app will handle the routing.
+
+Configure the homepage field in package.json: Ensure that the homepage field in your package.json file is set correctly to the URL where your app will be hosted on GitHub Pages. For example:
+json
+Copy code
+{
+   "homepage": "https://saeed-senior.github.io/sayid/"
+}
+Build and deploy again: After making any necessary changes, rebuild your CRA project and deploy it to GitHub Pages. Run npm run build or yarn build to create the optimized production build, then follow the instructions provided by GitHub Pages to deploy your app again.
+By following these steps, you should be able to resolve the issue with i18next not working when deploying your CRA project to GitHub Pages.
+
+
+
+
+
+

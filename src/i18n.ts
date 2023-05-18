@@ -12,11 +12,17 @@ interface Interpolation {
    escapeValue: boolean;
 }
 
+interface BackendLang {
+      loadPath: string;
+}
+
 interface I18nConfig {
    fallbackLng: string;
    debug: boolean;
    detection: Detection;
    interpolation: Interpolation;
+   backend: BackendLang;
+
 }
 
 const i18nConfig: I18nConfig = {
@@ -28,7 +34,10 @@ const i18nConfig: I18nConfig = {
    },
    interpolation: {
       escapeValue: false
-   }
+   },
+   backend: {
+      loadPath: '/sayid/{{lng}}/{{ns}}.json',
+   },
 };
 
 i18n.use(Backend)
