@@ -17,6 +17,7 @@ function Header(): JSX.Element {
    function handleClick(lang: string) {
       changeLanguage(lang);
       setLangs(lang.toUpperCase());
+      setChoise(false);
    }
 
    return (
