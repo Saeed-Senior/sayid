@@ -11,7 +11,7 @@ function Work({image, name, link}: WorkProps): JSX.Element {
 
    return (
       <>
-      <a href={link} className='relative block w-full sm:w-1/2 h-[200px] sm:h-[250] md:h-[300px] mb-2'>
+      <a href={link} className='relative block w-full h-[200px] sm:h-[250] md:h-[300px] mb-2 sm:mb-0'>
          <img className='absolute top-0 left-0 w-full h-full object-cover' src={image} alt="project"/>
          <div onMouseMove={() => setWork(true)} onMouseOut={() => setWork(false)} className='work'>
             <span className={work ? 'scale-1 transition duration-400 font-semibold text-1xl' : 'scale-0'}>{name}</span>

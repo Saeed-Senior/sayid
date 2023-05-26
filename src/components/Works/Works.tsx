@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 import pet1 from '../../img/pet1.png';
 import pet2 from '../../img/pet2.png';
+import pet3 from '../../img/pet3.png';
 import commercial1 from '../../img/commercial1.png';
 import commercial2 from '../../img/commercial2.png';
 
@@ -79,9 +80,10 @@ function Works(): JSX.Element {
             } 
          }}
          viewport={{once: true}}
-            className={works ? 'hidden' : 'sm:flex items-center block'}>
+            className={works ? 'hidden' : 'sm:grid grid-cols-2 items-center'}>
             <Work image={pet1} name='Weather App' link='https://saeed-senior.github.io/weather/'/>
             <Work image={pet2} name='Movies App' link='https://saeed-senior.github.io/movies-app/'/>
+            <Work image={pet3} name='Five basics' link='https://saeed-senior.github.io/five-basics/'/>
             </motion.div>
             <motion.div
             initial={{
